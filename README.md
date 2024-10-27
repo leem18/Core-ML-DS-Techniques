@@ -1,1 +1,1 @@
-# Core-ML-and-DS-Techniques
+# Core-ML-DS-Techniques
