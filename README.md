@@ -1,1 +1,44 @@
 # Core-ML-DS-Techniques
+
+Welcome to **Core-ML-DS-Techniques**! This repository is a collection of essential machine learning and data science techniques designed to provide a solid foundation in three powerful and widely used models:
+
+- **Linear Regression**
+- **Polynomial Ridge Regression**
+- **K-Nearest Neighbor (KNN)**
+
+Each module dives into the math, code, and intuition behind these methods, offering a comprehensive guide that is perfect for both beginners and seasoned data scientists looking to refresh or deepen their understanding.
+
+---
+
+## 📚 Repository Structure
+
+### 1. **Linear Regression**
+   Linear regression is the building block of many predictive models. This section covers:
+   - The principles of linear regression
+   - Step-by-step implementation
+   - Visualizations to understand model behavior and performance
+
+### 2. **Polynomial Ridge Regression**
+   Extend linear regression to handle more complex relationships while adding regularization to prevent overfitting. Learn:
+   - Polynomial feature transformations
+   - Ridge regression for regularization
+   - Balancing model complexity and bias-variance trade-offs
+
+### 3. **K-Nearest Neighbor (KNN)**
+   Discover the power of instance-based learning with KNN. This section includes:
+   - Explanation of the KNN algorithm and distance metrics
+   - Practical use cases and limitations
+   - Code examples for classification and regression with KNN
+
+---
+
+## 🚀 Getting Started
+
+To explore each technique, simply clone this repository and navigate through each folder for code, explanations, and example use cases.
+
+```bash
+git clone https://github.com/leem18/Core-ML-DS-Techniques.git
+cd Core-ML-DS-Techniques
+
+Each section contains a README.md with theoretical backgrounds, as well as Jupyter notebooks for hands-on practice.
+
