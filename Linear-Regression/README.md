@@ -1,6 +1,7 @@
 # Linear Regression
 
 This section of the **Core-ML-DS-Techniques** repository explores **Linear Regression**, a fundamental technique in machine learning and statistics for modeling the relationship between a dependent variable and one or more independent variables. This guide provides a comprehensive overview, essential equations, and hands-on code examples to understand the workings of Linear Regression.
+
 ---
 
 ## 📖 Overview
