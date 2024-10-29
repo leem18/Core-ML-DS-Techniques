@@ -30,6 +30,8 @@ Each module dives into the math, code, and intuition behind these methods, offer
    - Practical use cases and limitations
    - Code examples for classification and regression with KNN
 
+### 4. To Be Developed...
+
 ---
 
 ## 🚀 Getting Started
@@ -46,5 +48,12 @@ Each section contains a README.md with theoretical backgrounds, as well as Jupyt
 
 ## 🔥 Why This Repository?
 Understanding these core models will help you build a strong foundation in machine learning, allowing you to confidently tackle real-world problems and develop more advanced techniques. This repository is crafted to blend theory and practice, making these concepts accessible and actionable.
+<hr>
+
+## 🤝 Contributions
+Feel free to open issues, suggest improvements, or add new techniques. Let's make this a valuable resource for the data science and machine learning community!
+<hr>
+
+## Thank you for exploring Core-ML-DS-Techniques! Dive in, experiment, and bring your machine learning knowledge to the next level.
 
 
