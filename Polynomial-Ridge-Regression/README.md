@@ -20,20 +20,20 @@ These methods are widely used for datasets where linear models may not suffice o
 Polynomial Regression builds on linear regression by adding polynomial terms, allowing for the modeling of nonlinear relationships. For a single predictor \( x \) and polynomial degree \( d \), the model is expressed as:
 
 \[
-y = \beta_0 + \beta_1 x + \beta_2 x^2 + \dots + \beta_d x^d + \epsilon
+$y = \beta_0 + \beta_1 x + \beta_2 x^2 + \dots + \beta_d x^d + \epsilon$
 \]
 
-- \( \beta_0, \beta_1, \dots, \beta_d \): Coefficients of the polynomial terms
-- \( d \): Degree of the polynomial
-- \( \epsilon \): Error term
+- \( $\beta_0, \beta_1, \dots, \beta_d$ \): Coefficients of the polynomial terms
+- \( $d$ \): Degree of the polynomial
+- \( $\epsilon$ \): Error term
 
 In matrix notation, Polynomial Regression can be represented by expanding \( X \) with polynomial terms up to degree \( d \):
 
 \[
-y = X \beta + \epsilon
+$y = X \beta + \epsilon$
 \]
 
-where \( X \) includes the powers of \( x \) for each degree up to \( d \).
+where \( $X$ \) includes the powers of \( $x$ \) for each degree up to \( $d$ \).
 
 ### 2. **Ridge Regression**
 
