@@ -17,7 +17,7 @@ Linear Regression is a supervised learning algorithm used for predicting a conti
 In simple linear regression, we model the relationship between a single predictor variable \( x \) and a response variable \( y \) using the equation:
 
 \[
-y = \beta_0 + \beta_1 x + \epsilon
+$y = \beta_0 + \beta_1 x + \epsilon$
 \]
 
 - \( \beta_0 \): Intercept term, representing the value of \( y \) when \( x = 0 \)
