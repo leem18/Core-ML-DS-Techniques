@@ -41,35 +41,35 @@ Ridge Regression, also known as **L2 Regularization**, extends linear (or polyno
 
 The objective function for Ridge Regression is:
 
-\[
+$\[
 \text{Minimize } \sum_{i=1}^m \left( y_i - \hat{y}_i \right)^2 + \lambda \sum_{j=1}^n \beta_j^2
-\]
+\]$
 
 where:
-- \( \sum_{i=1}^m (y_i - \hat{y}_i)^2 \): Sum of Squared Errors (SSE)
-- \( \lambda \): Regularization parameter controlling the penalty strength
-- \( \sum_{j=1}^n \beta_j^2 \): L2 norm (penalty term) on the coefficients
+- $\( \sum_{i=1}^m (y_i - \hat{y}_i)^2 \)$: Sum of Squared Errors (SSE)
+- $\( \lambda \)$: Regularization parameter controlling the penalty strength
+- $\( \sum_{j=1}^n \beta_j^2 \)$: L2 norm (penalty term) on the coefficients
 
 ### 3. **Coefficient Calculation in Ridge Regression**
 
 The Ridge Regression coefficients are calculated using the following closed-form solution in matrix notation:
 
-\[
+$\[
 \beta = (X^T X + \lambda I)^{-1} X^T y
-\]
+\]$
 
 where:
-- \( X \): Matrix of input features, including polynomial terms for Polynomial Ridge Regression
-- \( y \): Vector of output values
-- \( \lambda I \): Regularization term, with \( I \) as the identity matrix
+- $\( X \)$: Matrix of input features, including polynomial terms for Polynomial Ridge Regression
+- $\( y \)$: Vector of output values
+- $\( \lambda I \)$: Regularization term, with $\( I \)$ as the identity matrix
 
-Increasing \( \lambda \) forces smaller coefficients, thus simplifying the model, while setting \( \lambda = 0 \) reverts the model to regular Polynomial Regression.
+Increasing $\( \lambda \)$ forces smaller coefficients, thus simplifying the model, while setting $\( \lambda = 0 \)$ reverts the model to regular Polynomial Regression.
 
 ---
 
 ## 📊 Visualizing the Results
 
-For both Polynomial and Ridge Regression, visualization is key to understanding model performance. Comparing fitted curves or surfaces with the data points helps in assessing model accuracy, especially when tuning the degree \( d \) in Polynomial Regression or the regularization parameter \( \lambda \) in Ridge Regression.
+For both Polynomial and Ridge Regression, visualization is key to understanding model performance. Comparing fitted curves or surfaces with the data points helps in assessing model accuracy, especially when tuning the degree $\( d \)$ in Polynomial Regression or the regularization parameter $\( \lambda \)$ in Ridge Regression.
 
 ---
 
