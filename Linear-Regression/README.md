@@ -29,7 +29,7 @@ $y = \beta_0 + \beta_1 x + \epsilon$
 Linear regression typically uses **Ordinary Least Squares (OLS)** to estimate the coefficients \( \beta \) by minimizing the **Sum of Squared Errors (SSE)**:
 
 \[
-\text{SSE} = \sum_{i=1}^m (y_i - \hat{y}_i)^2 = \sum_{i=1}^m \left( y_i - \left( \beta_0 + \sum_{j=1}^n \beta_j x_{ij} \right) \right)^2
+$\text{SSE} = \sum_{i=1}^m (y_i - \hat{y}_i)^2 = \sum_{i=1}^m \left( y_i - \left( \beta_0 + \sum_{j=1}^n \beta_j x_{ij} \right) \right)^2$
 \]
 
 Minimizing SSE results in the best-fit line, where the predicted values are as close as possible to the observed values.
@@ -39,12 +39,12 @@ Minimizing SSE results in the best-fit line, where the predicted values are as c
 The closed-form solution for the coefficients in matrix notation is:
 
 \[
-\beta = (X^T X)^{-1} X^T y
+$\beta = (X^T X)^{-1} X^T y$
 \]
 
 where:
-- \( X \): Matrix of input features
-- \( y \): Vector of output values
+- \( $X$ \): Matrix of input features
+- \( $y$ \): Vector of output values
 
 ---
 
