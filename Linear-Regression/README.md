@@ -20,9 +20,9 @@ In simple linear regression, we model the relationship between a single predicto
 $y = \beta_0 + \beta_1 x + \epsilon$
 \]
 
-- \( \beta_0 \): Intercept term, representing the value of \( y \) when \( x = 0 \)
-- \( \beta_1 \): Slope coefficient, representing the change in \( y \) with respect to \( x \)
-- \( \epsilon \): Error term, accounting for variance not explained by the model
+- \( $\beta_0$ \): Intercept term, representing the value of \( $y$ \) when \( $x = 0$ \)
+- \( $\beta_1$ \): Slope coefficient, representing the change in \( $y$ \) with respect to \( $x$ \)
+- \( $\epsilon$ \): Error term, accounting for variance not explained by the model
 
 ### 2. **Ordinary Least Squares (OLS) Estimation**
 
